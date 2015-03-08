@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="InternetNotAvailable">We are unable to connect with Internet. Please try again later.</string>
+    <string name="ServerNotAvailable">We are unable to connect you with Chatify Server. Please try again.</string>
+    <string name="VerifyCode">A 6 digits verification code has been sent on %1$s. Please enter verification code:</string>
+</resources>

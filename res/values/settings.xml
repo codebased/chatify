@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="settings_text">
+        <item>Settings</item>
+        <item>Notifications</item>
+        <item>Facebook Connect</item>
+        <item>Twitter Connect</item>
+        <item>Feedback</item>
+        <item>Help</item>
+        <item>About</item>
+    </string-array>
+
+    <array name="settings_icons"></array>
+
+    <string name="FST">14</string>
+
+    <array name="arrow_icon"></array>
+
+    <string name="Host">192.168.1.14</string>
+    <string name="ClientPort">5222</string>
+    <string name="ClientPortSSL">5223</string>
+    <string name="Service">cloudone</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">GCM: device successfully unregistered!</string>
+    <string name="gcm_message">GCM: you got message!</string>
+    <string name="gcm_error">GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">Demo Server: successfully added device!</string>
+    <string name="server_unregistered">Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+
+</resources>

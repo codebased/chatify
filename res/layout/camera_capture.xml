@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/divider_color"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imgCamera"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        
+        android:layout_marginBottom="60dp"
+        android:cropToPadding="true"
+        android:src="@drawable/action_search" />
+    
+<LinearLayout android:id="@+id/footer" android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+     android:layout_alignParentRight="true" 
+      
+    
+    >
+
+    <Button android:id="@+id/btnCancel" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_weight="1"
+          android:background="@color/cancel_button_background"
+        
+        android:padding="12dp"
+        android:layout_marginRight="15dp"
+        android:text="Cancel"
+       
+        android:textColor="@color/foreground_white"
+         />
+
+    <Button android:id="@+id/btnSave" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_weight="1"
+        
+        android:textColor="@color/foreground_white" 
+        android:padding="12dp"
+        android:background="@color/ok_button_background"
+        android:text="Save" />
+</LinearLayout>
+    </RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Background">#f7f7f7</color>
+    <color name="contact_background">#3b519d</color>
+    <color name="contact_foreground">#f4f4f4</color>
+    <color name="Foreground">#444444</color>
+    <color name="divider_color">#000</color>
+    <color name="contact_list_item_text">#FFFFFF</color>
+    <color name="contact_list_item_status">#eeeeee</color>
+    <color name="user_profile_background">#48b07b</color>
+    <color name="user_profile_status_background">#128ac6</color>
+    <color name="user_profile_gallery_background">#ee9748</color>
+    <color name="user_profile_foreground">#eeeeee</color>
+    <color name="foreground_dark_grey">#535353</color>
+    <color name="user_profile_heading">#128ac6</color>
+    <color name="edit_text_background">#ebe3d6</color>
+    <color name="spinner_background">#ebe3d6</color>
+    <color name="ok_button_background">#48b07b</color>
+    <color name="cancel_button_background">#c1333f</color>
+    <color name="heading_foreground">#128ac6</color>
+    <color name="warning_button_background">#217fbc</color>
+    <color name="foreground_white">#f4f4f4</color>
+     <color name="dark_blue_black">#394a59</color>
+     <color name="foreground_light_grey">#adadad</color>
+      
+     
+</resources>

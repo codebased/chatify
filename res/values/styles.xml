@@ -1,0 +1,90 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!--
+         android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        
+           <item name="android:windowBackground">@color/Background</item>
+    <item name="android:textColor">@color/Foreground</item>
+   
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme">
+        <item name="android:windowBackground">@color/Background</item>
+ 		<item name="android:actionBarStyle">@style/MyActionBar</item>
+ 		<item name="android:actionMenuTextColor">@color/divider_color</item>
+    </style>
+    
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+    <item name="android:background">@color/foreground_white</item>
+    <item name="android:textColor">@color/foreground_dark_grey</item>
+</style>
+<style name="chat_theme_contact" parent="@android:style/Theme.Holo.Light">
+    <item name="android:windowBackground">@color/contact_background</item>
+    <item name="android:textColor">@color/contact_foreground</item>
+    <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    
+<style name="chat_theme_main" parent="android:Theme.Light.NoTitleBar">
+    <item name="android:windowBackground">@color/Background</item>
+    <item name="android:textColor">@color/Foreground</item>
+    <item name="android:textSize">15sp</item>
+    
+    <item name="android:padding">0dp</item>
+    
+</style>
+<style name="user_profile_header" parent="android:Theme.Light.NoTitleBar">
+    <item name="android:background">@color/user_profile_background</item>
+    <item name="android:textColor">@color/foreground_white</item>
+    <item name="android:padding">0dp</item>
+    
+</style>
+<style name="error_message" parent="android:Theme.Light.NoTitleBar">
+    <item name="android:background">@color/cancel_button_background</item>
+    <item name="android:textColor">@color/foreground_white</item>
+    <item name="android:padding">5dp</item>
+</style>
+<style name="information_message" parent="android:Theme.Light.NoTitleBar">
+    <item name="android:background">@color/ok_button_background</item>
+    <item name="android:textColor">@color/foreground_white</item>
+    <item name="android:padding">5dp</item>
+</style>
+<style name="warning_message" parent="android:Theme.Light.NoTitleBar">
+    <item name="android:background">@color/warning_button_background</item>
+    <item name="android:textColor">@color/foreground_white</item>
+    <item name="android:padding">5dp</item>
+    
+</style>
+  <style name="verification_process" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/Background</item>
+    <item name="android:textColor">@color/Foreground</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:padding">0dp</item>
+    </style>
+   <style name="edit_text_box" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:background">@color/edit_text_background</item>
+    <item name="android:textColor">@color/foreground_dark_grey</item>
+    <item name="android:textSize">9pt</item>
+    <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_marginLeft">10dp</item>
+            <item name="android:layout_marginRight">10dp</item>
+            <item name="android:layout_marginTop">10dp</item>
+    
+    <item name="android:padding">8dp</item>
+    </style>
+  <style name="chat_style" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+         <item name="android:windowBackground">@color/foreground_white</item>
+    <item name="android:textColor">@color/foreground_dark_grey</item>
+
+    </style>
+</resources>
